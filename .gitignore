@@ -1,0 +1,67 @@
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python & FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Expo / React Native
+.expo/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Environment Secrets
+.env
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Docker volume data mounts
+cyt_postgres_data/
+cyt_redis_data/
+cyt_minio_data/

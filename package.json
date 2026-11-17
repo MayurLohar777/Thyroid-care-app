@@ -1,0 +1,30 @@
+{
+  "name": "care-your-thyroid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Care Your Thyroid — Unified Healthcare SaaS for Web, Mobile, and AI-Assisted Thyroid Monitoring",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:mobile": "npm run start --workspace=apps/mobile",
+    "build": "npm run build --workspace=apps/web",
+    "lint": "npm run lint --workspace=apps/web",
+    "typecheck": "npm run typecheck --workspace=apps/web",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "keywords": [
+    "healthcare",
+    "thyroid",
+    "nextjs",
+    "fastapi",
+    "react-native",
+    "ai-assisted",
+    "medical-saas"
+  ],
+  "author": "Care Your Thyroid Engineering Team",
+  "license": "UNLICENSED"
+}

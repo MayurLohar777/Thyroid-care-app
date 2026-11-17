@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Care Your Thyroid",
+    "slug": "care-your-thyroid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#123D42"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.careyourthyroid.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#123D42"
+      },
+      "package": "com.careyourthyroid.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
